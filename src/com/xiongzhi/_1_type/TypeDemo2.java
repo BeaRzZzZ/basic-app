@@ -1,4 +1,4 @@
-package com.xiongzhi.type;
+package com.xiongzhi._1_type;
 
 public class TypeDemo2 {
     public static void main(String[] args) {
@@ -16,5 +16,6 @@ public class TypeDemo2 {
         double score = 99.5;
         int it = (int)score;
         System.out.println(it);//it = 99
+
     }
 }

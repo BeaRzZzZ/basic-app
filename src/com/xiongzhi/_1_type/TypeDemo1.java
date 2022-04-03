@@ -1,4 +1,4 @@
-package com.xiongzhi.type;
+package com.xiongzhi._1_type;
 
 
 //此单元为变量类型的自动转换，范围小的变量类型可以转换为范围大的，反之不行
@@ -20,7 +20,7 @@ public class TypeDemo1 {
         byte a1 = 10;
         int b1 = 20;
         double c1 = 30.0;
-        double result = a1 + b1 + c1;   //这里不能用int或者byte，因为不同类型的变量运算结果要以范围最高的那个为结果
+        double result = a1 + b1 + c1;   //这里不能用int或者byte，因为不同类型的变量运算结果要以范围最高的那个为结果，防止溢出
         System.out.println(result);
 
         //面试题

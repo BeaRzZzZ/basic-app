@@ -17,5 +17,17 @@ public class TypeDemo1 {
         int code = ch;
         System.out.println(code);
 
+        byte a1 = 10;
+        int b1 = 20;
+        double c1 = 30.0;
+        double result = a1 + b1 + c1;   //这里不能用int或者byte，因为不同类型的变量运算结果要以范围最高的那个为结果
+        System.out.println(result);
+
+        //面试题
+        byte a2 = 10;
+        byte b2 = 20;
+        int c2 = a2 + b2; //byte c2 = a2 + b2会报错因为byte, short, char在运算中是当int算的
+        //因为单独赋值没问题，但是如果加在一起可能会会超过取值范围，为了避免直接升为int
+
     }
 }

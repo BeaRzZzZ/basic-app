@@ -20,7 +20,7 @@ public class SwitchDemo {
                 System.out.println(month+"月是31天！");
                 break;
             case 2:
-                System.out.println(month + "润年29天，平年28天");
+                System.out.println(month + "闰年29天，平年28天");
             case 4:
             case 6:
             case 9:

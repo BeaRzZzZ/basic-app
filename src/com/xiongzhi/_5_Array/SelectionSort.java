@@ -13,7 +13,7 @@ public class SelectionSort {
 
         for (int i = 0; i < arr.length-1; i++) { // 这里和冒泡排序一样都是-1,因为4个数执行3轮就行，最后一个自动就排好了
             int min = i;
-            for (int j = i + 1; j < arr.length; j++) {//这里4个数，j就是为了对i后面的数进行比较，第一轮比较3次，length =4，j=1，2，3，其
+            for (int j = i + 1; j < arr.length; j++) {//这里4个数，j就是为了对i后面的数进行比较，第一轮比较3次，length =4，j=1，2，3
                                                     // 其实这里和冒泡不一样的原因是j+1了，不然也是-j-1
                 if(arr[j] < arr[i]){
                     min = j;

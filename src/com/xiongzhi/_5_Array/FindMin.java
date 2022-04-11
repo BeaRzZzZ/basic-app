@@ -21,7 +21,7 @@ public class FindMin {
 
         }
     }
-    public static float[] insert(float[] position){
+    public static float[] insert(float[] position){ // 在数组中的某个位置插入元素
         int x=0,y=1;
         float maxDis = Math.abs(position[x]-position[y]);
         for (int j = 1; j < position.length-1; j++) {

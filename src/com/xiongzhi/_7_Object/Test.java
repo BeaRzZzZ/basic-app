@@ -40,7 +40,7 @@ public class Test {
             u1.setSalary(20000);
             System.out.println("身高"+u1.getHeight()+"的"+u1.getName()+"工资是"+u1.getSalary());
 
-            //2. 通过you can构造器常见对象封装一个用户信息
+            //2. 通过有参构造器常见对象封装一个用户信息
             JavaBean u2 = new JavaBean("陈奕迅", 180, 25000);
             System.out.println("身高"+u2.getHeight()+"的"+u2.getName()+"工资是"+u2.getSalary());
 

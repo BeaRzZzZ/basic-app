@@ -1,4 +1,4 @@
-package com.xiongzhi._8_strg;
+package com.xiongzhi._8_String;
 
 public class StringBasic {
     public static void main(String[] args) {

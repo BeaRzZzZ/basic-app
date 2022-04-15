@@ -23,8 +23,8 @@ public class LuckNumber {
             while(true){
                 int number = r.nextInt(33)+1;
                 boolean flag = true;
-                for (int j = 0; j < i; j++) {
-                    if(number == numbers[j]){
+                for (int j = 0; j < i; j++) { // 只要扫描已经产生的那几个数字
+                    if(number == numbers[j]){ // 说明生成的数和之前生成的重复了
                         flag = false;
                         break;
                     }

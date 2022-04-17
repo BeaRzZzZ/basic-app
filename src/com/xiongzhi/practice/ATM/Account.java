@@ -7,7 +7,7 @@ public class Account {
     private double money;   // 账户余额
     private double quotaMoney; // 每次取现额度
 
-    // 这个对象的使用场景使用无参构造器就不合适
+    // 这个对象的使用场景使用有参构造器就不合适
 
     public String getCardID() {
         return cardID;
